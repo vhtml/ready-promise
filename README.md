@@ -1,4 +1,4 @@
-# ready-promise
+# ready-promise [![NPM version](https://badge.fury.io/js/ready-promise.svg)](http://badge.fury.io/js/ready-promise)
 
 Wait for the resource initialization is complete.
 
