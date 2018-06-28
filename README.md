@@ -35,5 +35,5 @@ readyPromise(watchFunc[, options])
 
 - `options` 
 
-  - `rate` (Number) 执行`watchFunc`的频率
-  - `timeout` (Number) 判断超时最大时长限制
+  - `rate` (Number) 单位ms，执行`watchFunc`的频率，默认`50`
+  - `timeout` (Number) 单位ms，判断超时最大时长限制，默认`1500`
