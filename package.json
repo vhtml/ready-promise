@@ -1,13 +1,13 @@
 {
   "name": "ready-promise",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Wait for the resource initialization is complete",
   "main": "./lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
     "test": "mocha --require babel-core/register",
-		"prepublishOnly": "npm run test && npm run build"
-	},
+    "prepublishOnly": "npm run test && npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:vhtml/ready-promise.git"
