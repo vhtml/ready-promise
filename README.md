@@ -31,9 +31,9 @@ readyPromise(watchFunc[, options])
 
 - `watchFunc` (Function) 
   
-  判断某个要监听的变量是否存在或符合条件，需自行实现，返回`true`或`false`。
+  To determine whether a variable to be monitored exists or meets the conditions, you need to implement it yourself, returning `true` or `false`.
 
 - `options` 
 
-  - `rate` (Number) 单位ms，执行`watchFunc`的频率，默认`50`
-  - `timeout` (Number) 单位ms，判断超时最大时长限制，默认`1500`
+  - `rate` (Number) Unit `ms`, the frequency of executing `watchFunc`, default `50`.
+  - `timeout` (Number) Unit `ms`, judge the timeout maximum duration limit, the default `1500`.
