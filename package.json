@@ -5,12 +5,16 @@
   "main": "./lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
-    "test": "mocha --require babel-core/register"
-  },
+    "test": "mocha --require babel-core/register",
+		"prepublishOnly": "npm run test && npm run build"
+	},
   "repository": {
     "type": "git",
     "url": "git@github.com:vhtml/ready-promise.git"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "ready-promise"
   ],
